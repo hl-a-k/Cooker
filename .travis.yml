@@ -4,4 +4,4 @@ osx_image: xcode9
 xcode_project: Cooker.xcodeproj
 xcode_scheme: Cooker
 
-script: xcrun xcodebuild test -project Cooker.xcodeproj -scheme Cooker -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.3'
+script: xcrun xcodebuild test -project Cooker.xcodeproj -scheme Cooker -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.3.1'
